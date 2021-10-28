@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    color: #fff;
+}
+
+body {
+    font-family: "vazir";
+    background-color: black;
+    color: #fff;
+    direction: rtl;
+}
+
+.body-asli {
+    background-color: #1E1F21;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ---------------------------------------------------------- */
+
+.icon-color {
+    color: #A14CAA;
+}
+
+.download {
+    color: #A14CAA;
+}
+
+.sheet:hover {
+    color: #A14CAA;
+}
+
+.pic {
+    background: url(../images/working+with+color+in+portrait+photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.sociall>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+.sociall>a:hover {
+    color: #A14CAA;
+}
+
+
+/* ---------------------------------------------------------------- */
+
+.header {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* height: 100vh; */
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: min-content;
+    padding: 0;
+}
+
+.menu-bar {
+    font-size: 30px !important;
+}
+
+.menu-bar:hover {
+    color: #fff;
+}
+
+.menu-list {
+    justify-content: space-between;
+    height: 20%;
+}
+
+.group {
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.bars {
+    background-color: #A14CAA;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+/* ---------------------------------------------- */
+
+.material-icons {
+    font-size: 30px;
+}
+
+.sections {
+    margin: 0 0px;
+    height: 100%;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 3.5rem;
+}
+
+.section-caption {
+    /* margin-top: 20px; */
+    opacity: 60%;
+    margin: 20px;
+}
+
+.section-link {
+    margin-top: 30px;
+    color: #A14CAA;
+}
+
+.section-link>i>a {
+    color: #A14CAA;
+}
+
+.section-menu {
+    margin-top: 20px;
+}
+
+.title1 {
+    font-size: 40px;
+    width: 456px;
+}
+
+.tittle-bold {
+    font-weight: bold;
+}
